@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 );
                 i.putExtra("name", username);
                 startActivity(i);
-                txt.setText("Welcome " + username);
             }
         });
 
